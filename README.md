@@ -102,6 +102,12 @@ sudo apt install dialog
 If using option 3, edit the pdp8.sh and pdp11.sh scripts - whichever applies to your configuration and modify the device name if needed.
 Edit the login.sh script - uncomment the option that you're using, update or remove any menu options.
 
+Add the login.sh script to your .profile - as the last line
+
+```
+~/vt100-pidp-serial/login.sh
+```
+
 ## PiDP Setup
 
 This applies both to PiDP-8 and PiDP-11.
