@@ -16,22 +16,22 @@ while choice=$(dialog \
             1) 
                 # Use vt100 directly
                 # cd ~/terminal-simulator/vt100
-                # ./vt100 -a /dev/ttySC0
+                # ./vt100 -fa /dev/ttySC0
                 # Use tio directly
                 # tio -b 9600 -c 255 /dev/ttySC0
                 # Use vt100 with tio
                 cd ~/terminal-simulator/vt100
-                ./vt100 -a ~/vt100-pidp-serial/pdp11.sh
+                ./vt100 -fa ~/vt100-pidp-serial/pdp11.sh
                 ;;
             2) 
                 # Use vt100 directly
                 # cd ~/terminal-simulator/vt100
-                # ./vt100 -a /dev/ttySC1
+                # ./vt100 -fa /dev/ttySC1
                 # Use tio directly
                 # tio -b 9600 -c 255 /dev/ttySC1
                 # Use vt100 with tio
                 cd ~/terminal-simulator/vt100
-                ./vt100 -a ~/vt100-pidp-serial/pdp8.sh
+                ./vt100 -fa ~/vt100-pidp-serial/pdp8.sh
                 ;;
             3) /usr/bin/zsh
                 ;;
