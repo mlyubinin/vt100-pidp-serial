@@ -133,4 +133,9 @@ ExecStart=-/sbin/agetty --autologin pi --noclear --keep-baud 115200,57600,38400,
 
 On connect, you will likely see either a blank screen (if using option 2) or tio connection message (if using options 1 or 3). If you have the PDP emulator opening automatically on login, you can refresh the screen with `Ctrl-A l` shortcut.
 Keep in mind that as far as keyboard shortcuts go, with option 1 you have tio on the terminal machine (`Ctrl-T` shortcuts) and screen (`Ctrl-a` shortcuts) on the PiDP machine. With option 2 you have vt100 simulator (standard VT100 shortcuts) and screen. And with option 3 you have a combination of all three sets of shortcuts.
+
+When using tio, the way to end session is `Ctrl-t q`, and the way to send `Ctrl-t` to the remote host is `Ctrl-t Ctrl-t`.
+With option 3, closing tio will also close the terminal simulator.
+with option 2, `F9` gets you to Setup-A, `Ctrl-F11` closes the terminal simulator.
+
 Good luck!

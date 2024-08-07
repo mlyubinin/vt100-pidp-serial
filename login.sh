@@ -20,6 +20,7 @@ while choice=$(dialog \
                 # Use tio directly
                 # tio -b 9600 -c 255 /dev/ttySC0
                 # Use vt100 with tio
+                cd ~/terminal-simulator/vt100
                 ./vt100 -a ~/vt100-pidp-serial/pdp11.sh
                 ;;
             2) 
@@ -29,6 +30,7 @@ while choice=$(dialog \
                 # Use tio directly
                 # tio -b 9600 -c 255 /dev/ttySC1
                 # Use vt100 with tio
+                cd ~/terminal-simulator/vt100
                 ./vt100 -a ~/vt100-pidp-serial/pdp8.sh
                 ;;
             3) /usr/bin/zsh
