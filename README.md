@@ -2,6 +2,8 @@
 
 Configuration and scripts for connecting to multiple PiDP replicas from VT-100 replica via serial cable
 
+[![Demo Video](https://img.youtube.com/vi/7QOZns_Tpzw/0.jpg)](https://www.youtube.com/watch?v=7QOZns_Tpzw)
+
 ## Intro
 
 This is my configuration for the following setup:
